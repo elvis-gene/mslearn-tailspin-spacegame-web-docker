@@ -21,7 +21,7 @@ stages:
           buildContext: $(Build.Repository.LocalPath)
           repository: $(webRepository)
           dockerfile: '$(Build.SourcesDirectory)/SpaceGame-web-docker/Dockerfile'
-          containerRegistry: 'Space-Game-ContainerRSC'
+          containerRegistry: 'Space Game Registry'
           tags: |
             $(tag)
 
